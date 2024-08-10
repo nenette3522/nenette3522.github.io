@@ -1,0 +1,160 @@
+html {
+    font-size: 20px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: beige;
+}
+
+
+
+h1 {
+    display: block;
+    width: fit-content;
+    margin: 15px auto;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+section {
+    width: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    border: 1px solid lightslategray;
+    background-color: white;
+}
+
+#couleurs {
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.couleur {
+    width: 170px;
+    height: 110px;
+    margin: 30px 50px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.couleur span {
+    width: fit-content;
+    height: fit-content
+}
+
+#onyx {
+    background-color: #393D3F;
+    color: white;
+}
+
+#white {
+    background-color: #FDFDFF;
+    border: 1px solid black;
+}
+
+#silver {
+    background-color: #C6C5B9;
+}
+
+#blue {
+    background-color: #62929E;
+}
+
+#gris {
+    background-color: #546A7B;
+}
+
+section article {
+    margin: 15px 25px;
+}
+
+#arial {
+    font-family: Arial;
+}
+
+#georgia {
+    font-family: Georgia;
+}
+
+#cambria {
+    font-family: Cambria;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
+
+#polices span {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+#text-style ul {
+    padding-left: 10px;
+}
+
+#text-style ul li {
+    list-style: none;
+}
+
+#main-title span {
+    font-family: Arial;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#section-title span {
+    font-family: Arial;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#subtitle span {
+    font-family: Georgia;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#texte span {
+    font-family: Georgia;
+}
+
+#lien span {
+    font-family: Georgia;
+    text-decoration: underline;
+}
+
+#citation span {
+    font-family: Cambria;
+    font-style: italic;
+}
+
+#description span {
+    font-family: Cambria;
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+#text-style {
+    align-items: baseline;
+}
+
+#text-style article {
+    margin: 15px 60px;
+}
