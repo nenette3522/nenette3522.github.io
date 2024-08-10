@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Caféterie</title>
+    <link rel="stylesheet" href="./ressources/css/styles.css">
+    <link rel="stylesheet" href="./ressources/css/mobile.css">
+    <link rel="shortcut icon" href="./ressources/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="nav-web" class="web">
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">La Carte</a></li>
+            <li><a href="">Nos Fournisseurs</a></li>
+        </ul>
+    </nav>
+    <nav id="nav-mobile" class="mobile">
+        <div id="icon-menu">
+            <img src="./ressources/images/bars-solid.svg" alt="">
+        </div>
+        <div id="menu-mobile">
+            <a href="">Home</a>
+            <a href="">La Carte</a>
+            <a href="">Nos Fournisseurs</a>
+        </div>
+    </nav>
+    <header>
+        <div>
+            <h1>Bienvenue à <br class="web">La Caféterie !</h1>
+            <p>
+                Ici, c'est ambiance détente et rigolade. Notre café est l'endroit parfait pour une pause 
+                décontractée au cœur de la ville, que ce soit pour papoter avec des amis, faire semblant de 
+                travailler, ou déguster un café pas trop dégueu sans se presser avec un petit gâteau.
+            </p>
+        </div>    
+    </header>
+    <section id=horaires-et-specialites>
+        <article id="horaires">
+            <h2>Les horaires d'ouverture</h2>
+            <p>La Caféterie sera ravie de vous accueillir&nbsp;:</p>
+            <ul>
+                <li>du lundi au samedi en continu de 9h à 18h</li>
+                <li>le dimanche de 14h30 à 18h</li>
+            </ul>
+        </article>
+        <article id="cafes">
+            <h2>Du bon café</h2>
+            <p>
+                Ici, on ne plaisante pas avec le café ! On a parcouru le monde (enfin, le magasin) pour vous 
+                dégoter les meilleurs grains. Que vous soyez accro à l'espresso, fan de cappuccino ou mordu de 
+                latte, on a ce qu'il vous faut pour démarrer la journée du bon pied. 
+            </p>
+        </article>
+        <article id="produits-img">
+            <h2>
+                Le gras c'est la vie.<br>Alors chez nous, il y aura toujours du gâteau avec votre café.
+            </h2>
+            <div>
+                <img src="./ressources/images/cookies.jpg" alt="">
+            </div>
+            <div>
+                <img src="./ressources/images/gateaux-cafe-coeur.jpg" alt="">
+            </div>
+            <div>
+                <img src="./ressources/images/donuts.jpg" alt="">
+            </div>
+            <div>
+                <img src="./ressources/images/cafe-feuille.jpg" alt="">
+            </div>
+            <div class="img-position">
+                <img src="./ressources/images/cafe-gateaux.jpg" alt="">
+            </div>
+            <div class="img-position">
+                <img src="./ressources/images/gateau-biscuit.jpg" alt="">
+            </div>
+        </article>
+    </section>
+    <section id="john">
+        <h2 class="mobile">Notre équipe</h2>    
+        <div id="john-photo">
+            <img src="./ressources/images/employe-john.jpg" alt="">
+        </div>
+        <div id="john-text">
+            <h2 class="web">Notre équipe</h2>
+            <p>
+                Voici John. C'est le meilleur employé de notre modeste café (le seul aussi). Il prépare 
+                les cafés à la vitesse de la lumière, et peut deviner en un instant la pâtisserie à laquelle
+                vous êtes en train de penser. Et si jamais vous avez besoin d'une connexion Wi-Fi 
+                pour pouvoir troller sur X (on sait que c'est pas pour travailler), il sera ravi de vous 
+                donner le mot de passe.
+            </p>
+        </div>
+    </section>
+    
+    <section id="citation-contact">
+        <article id="citation">
+            <p>
+                If this is coffee, please bring me some tea; but if this is tea, please bring me some coffee.
+            </p>
+            <span>Abraham Lincoln</span>
+        </article>
+        <article id="contact">
+            <h2>Contact</h2>
+            <div id="tel" class="icone">
+                <img src="./ressources/images/phone-solid.svg" alt="">
+            </div>
+            <span>+33 000000000</span><br>
+            <div id="mail" class="icone">
+                <img src="./ressources/images/envelope-regular.svg" alt="">
+            </div>
+            <a href="">
+                cafeterie@gmail.com
+            </a><br>
+            <div id="x" class="icone">
+                <img src="./ressources/images/x-twitter-brands-solid.svg" alt="">
+            </div>
+            <a href="https://x.com" target="_blank" style="text-decoration: none;">
+                @la_cafeterie
+            </a> 
+        </article>           
+    </section>
+    <footer>
+        <p id="disclaimer">
+            Toute ressemblance avec une entreprise réelle est purement fortuite. Ce site a été créé
+            pour satisfaire les exigences du projet "Challenge Project: Company Home Page with Flexbox" des cours du 
+            cursus <a href="https://www.codecademy.com/learn/paths/full-stack-engineer-career-path" target="_blank">Ingénieur Full-Stack</a> 
+            de <a href="https://www.codecademy.com/" target="_blank">Codecademy</a>.
+        </p>    
+        <p id="credits-photo">Crédit des images utilisées pour ce projet : <a href="https://unsplash.com/">Unsplash</a></p>
+        <p id="credits-projet">Design et conception : Lauriane Bourrée</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,208 @@
+/* Barre de navigation */
+
+@media only screen and (min-width: 769px) {
+    .mobile {
+        display: none;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .web {
+        display: none;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+    }
+}
+
+#nav-mobile {
+    position: fixed;
+    height: 40px;
+    width: 36px;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    background-color: var(--couleur-marron);
+    overflow: hidden;
+}
+
+#icon-menu {
+    width: 20px;
+    height: 24px;
+    margin: 8px;
+}
+
+#nav-mobile:hover {
+    height: fit-content;
+    width: fit-content;
+}
+
+#nav-mobile:active {
+    height: fit-content;
+    width: fit-content;
+}
+
+#menu-mobile {
+    padding: 12px;
+}
+
+#menu-mobile a {
+    display: block;
+    width: fit-content;
+    margin-bottom: 12px;
+    font-family: var(--police-titres);
+    text-transform: uppercase;
+    text-decoration: none;
+    color : var(--couleur-vanilla);
+}
+
+#menu-mobile a:hover {
+    color: var(--couleur-vieux-rose);
+}
+
+#menu-mobile a:active {
+    color: var(--couleur-vieux-rose);
+}
+
+/* header */
+
+@media only screen and (max-width: 768px) {
+    header {
+        margin-top: 0;
+        height: fit-content;
+        background-size: cover;
+    }
+
+    header div {
+        background-color: transparent;
+    }
+
+    header h1 {
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        font-size: 1.7rem;
+        margin: 140px auto 50px;
+        color: var(--couleur-vanilla);
+        background-color: var(--couleur-marron);
+    }
+
+    header p {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+    header {
+        background-position: 60% 50%;
+    }
+}
+
+@media only screen and (max-width: 383px){
+    header h1 {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header div {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* horaires et spécialités */
+
+/* horaires */
+
+@media only screen and (min-width: 514px) {
+    #horaires {
+        min-width: 454px;
+    }
+}
+
+
+@media only screen and (max-width: 514px) {
+    #horaires {
+        width: 80%;       
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #horaires li {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    #horaires {
+        padding: 16px;
+        width: fit-content;
+    }
+}
+
+/* cafe */
+@media only screen and (min-width: 1024px) {
+    #cafes {
+        width: 40%;
+    }
+}
+
+/* john */
+
+@media only screen and (max-width: 768px) {
+    #john {
+        max-height: none;
+    }
+
+    #john-text {
+        width: 80%;
+        min-width: none;
+        max-width: none;
+        margin: 40px auto 0;
+    }
+
+    #john h2 {
+        margin-bottom: 40px;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    #john-text {
+        min-width: 415px;
+    }
+}
+
+/* citation contact */
+
+@media only screen and (max-width: 900px) {
+    #citation-contact {
+        padding: 0;
+    }
+    
+    #citation {
+        width: 80%;
+        margin-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 363px) {
+    #contact span,
+    #contact a {
+        font-size: 1.2rem;
+    }
+
+    #contact {
+        padding: 40px 25px;
+    }
+}
