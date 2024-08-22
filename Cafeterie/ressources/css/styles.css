@@ -79,7 +79,7 @@ header {
     background-image: url("../images/banniere.jpg");
     width: 100%;
     height: auto;
-    background-position: 130% 35%;
+    background-position: right center;
     background-repeat: no-repeat;
     overflow: hidden;
 }
