@@ -69,25 +69,28 @@
 
 /* header */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1130px) {
     header {
         margin-top: 0;
         height: fit-content;
         background-size: cover;
+        background-position: center;
     }
 
     header div {
         background-color: transparent;
+        width: 100%;
+        margin: 0;
     }
 
     header h1 {
         display: block;
         width: fit-content;
         height: fit-content;
-        font-size: 1.7rem;
         margin: 140px auto 50px;
         color: var(--couleur-vanilla);
         background-color: var(--couleur-marron);
+        opacity: 0.9;
     }
 
     header p {
@@ -96,9 +99,24 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+    header h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1130px) {
+    header {
+        min-height: 700px;
+    }
+    header h1 {
+        margin-top: 260px;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     header {
-        background-position: 60% 50%;
+        background-position: 50% 50%;
     }
 }
 
@@ -108,12 +126,7 @@
     }
 }
 
-@media only screen and (max-width: 1000px) {
-    header div {
-        width: 100%;
-        margin: 0;
-    }
-}
+
 
 /* horaires et spécialités */
 

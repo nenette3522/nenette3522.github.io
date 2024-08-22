@@ -76,10 +76,11 @@ body {
 
 header {
     margin-top: 70px;
-    background-image: url("../images/cafe-grain.jpg");
+    background-image: url("../images/banniere.jpg");
     width: 100%;
     height: auto;
-    background-size: cover;
+    background-position: 130% 35%;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -104,6 +105,10 @@ header p {
     font-size: 1.4rem;
     height: fit-content;
     margin: 40px 50px 0;
+}
+
+header br {
+    display: none;
 }
 
 /* section horaires et specialites*/
