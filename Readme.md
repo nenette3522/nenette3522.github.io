@@ -1,6 +1,6 @@
-#My Port-folio Website
+# My Port-folio Website
 
-##Description
+## Description
 You are in the repository of my port-folio website.
 The website looks like shit for now because I just wanted to see if it worked.
 Its purpose is to present a few projects I've been working (and will work) on my learning path at Codecademy.
