@@ -1,0 +1,38 @@
+@media only screen and (max-width: 987px) {
+    header {
+        padding: 20px;
+    }
+
+    header p {
+        min-width: 90%;
+    }
+
+    #notice {
+        padding: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #game {
+        padding: 0;
+    }
+    
+    #silly-sentence {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    label {
+        padding-top: 25px;
+    }
+
+    #submit {
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #silly-sentence{
+        min-height: 160px;
+    }
+}

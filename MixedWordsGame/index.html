@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Sentence Game</title>
+    <script src="./ressources/js-scripts/app.js" defer></script>
+    <link rel="stylesheet" href="./ressources/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ressources/css/reactivite.css">
+</head>
+<body>
+    <header>
+        <h1>The Silly Sentence Game</h1>
+        <div id="perso-rigolo">
+            <img src="./ressources/images/perso rigolo.jpg" alt="">
+        </div>
+        <p>
+            Bienvenue sur mon jeu. Ce jeu consiste à créer des phrases en choisissant des mots aléatoirement et en les 
+            mettant ensemble. <br>Le jeu a une base qui contient beaucoup, beaucoup de mots, pour un rendu final unique et 
+            complètement imprévisible. Cliquez-sur le bouton ci-dessous pour afficher la notice. 
+            <br>Amusez-vous bien !
+        </p>
+        <button type="button" id="show-notice">Comment jouer</button>
+    </header>
+    <section>
+        <article id="notice">
+            <h2>Comment jouer :</h2>
+            <p>
+                Pour jouer, c'est très simple :<br>
+                Chaque bouton ajoute une expression qui ressemble à "[animaux]" ou à "[objets]" à la zone de 
+                texte, ces expressions seront remplacées en cliquant sur le bouton "Générer" par un mot aléatoire 
+                correspondant au type indiqué sur le bouton. Il y a déjà une phrase prédéfinie, appuyez sur le bouton 
+                "Générer" pour voir le résultat. Vous pouvez modifier cette phrase comme vous le souhaitez, et mettre les 
+                mots que vous choisissez dans l'ordre dans lequel vous en avez envie.<br>
+            </p>
+            <button type="button" id="close-notice">Fermer la notice</button>
+        </article>
+        <article id="game-article">
+            <form id="game">
+                <label for="silly-sentence">
+                    Ma Silly Sentence
+                </label><br>
+                <textarea name="silly-sentence" id="silly-sentence" rows="4" required maxlength="200">[animaux] [verbe-présent] avec [objets] [lieux]</textarea>
+                <br><span id="result-sentence"></span><br>
+                <div id="buttons-word">
+                    <button type="button" id="aliments">Aliments</button>
+                    <button type="button" id="gens">Gens</button>
+                    <button type="button" id="lieux">Lieux</button>
+                    <button type="button" id="objets">Objets</button>
+                    <button type="button" id="animaux">Animaux</button>
+                    <button type="button" id="verbe-infinitif">Verbe - Infinitif</button>
+                    <button type="button" id="verbe-present">Verbe - Présent</button>
+                    <button type="button" id="verbe-passe">Verbe - Passé</button>
+                    <button type="button" id="verbe-futur">Verbe - Futur</button>
+                </div>
+                <button id="submit" type="button">Générer</button>
+            </form>
+        </article>
+    </section>
+</body>
+</html>
